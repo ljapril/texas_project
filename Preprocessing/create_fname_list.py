@@ -11,7 +11,7 @@ File = namedtuple('File','fname')
 files =[]
 
 #create starting path
-p = Path('/nfs/data/isml/Marc/PhaseNet/ElPaso/data')
+p = Path('/path/to/directory')
 
 
 #Iterate through path to find all seed files
@@ -31,4 +31,4 @@ df = pd.DataFrame(files)
 sorted_df = df.sort_values(by=["fname"], ascending=True)
 
 #Saving dataframe as a CSV
-sorted_df.to_csv(r'/nfs/data/isml/Marc/PhaseNet/ElPaso/data/fnames.csv', index = False)
+sorted_df.to_csv(r'/path/to/directory/fnames.csv', index = False)
