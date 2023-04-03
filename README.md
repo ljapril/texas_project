@@ -9,4 +9,4 @@ Make sure neccessary packages are installed
 
 # Running PhaseNet
 
-python phasenet/predict.py --model=model/190703-214543 --data_list=working_dataset/fnames.csv --data_dir=working_dataset/data --stations=working_dataset/mstations.json  --format=mseed_array --amplitude
+python phasenet/predict.py --model=model/190703-214543 --data_list=ElPaso/fnames.csv --data_dir=ElPaso/data --stations=ElPaso/stations_list.json  --format=mseed_array --amplitude
